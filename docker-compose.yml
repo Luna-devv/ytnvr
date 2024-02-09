@@ -1,0 +1,8 @@
+version: '3'
+services:
+  your-app:
+    container_name: ytnvr
+    image: ytnvr
+    ports:
+      - "5001:8080"
+    restart: unless-stopped
