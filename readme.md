@@ -1,5 +1,5 @@
 [![](https://img.shields.io/discord/828676951023550495?color=5865F2&logo=discord&logoColor=white)](https://lunish.nl/support)
-![](https://img.shields.io/github/repo-size/Luna-devv/nekostic?maxAge=3600)
+![](https://img.shields.io/github/repo-size/Luna-devv/youtube?maxAge=3600)
 
 [![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/I3I6AFVAP)
 
@@ -31,7 +31,7 @@ Remember to keep your API key secure and don't share it publicly. If you're work
 Clone this repo with the following commands:
 
 ```bash
-git clone https://github.com/Luna-devv/ytnvr
+git clone https://github.com/Luna-devv/youtube
 ```
 
 Create a `.env` file and add the following values:
