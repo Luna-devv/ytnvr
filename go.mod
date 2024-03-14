@@ -2,7 +2,10 @@ module github.com/Luna-devv/ytnvr
 
 go 1.21.6
 
-require google.golang.org/api v0.163.0
+require (
+	github.com/joho/godotenv v1.5.1
+	google.golang.org/api v0.163.0
+)
 
 require (
 	cloud.google.com/go/compute v1.23.3 // indirect
@@ -16,7 +19,6 @@ require (
 	github.com/google/uuid v1.6.0 // indirect
 	github.com/googleapis/enterprise-certificate-proxy v0.3.2 // indirect
 	github.com/googleapis/gax-go/v2 v2.12.0 // indirect
-	github.com/joho/godotenv v1.5.1 // indirect
 	go.opencensus.io v0.24.0 // indirect
 	go.opentelemetry.io/contrib/instrumentation/net/http/otelhttp v0.47.0 // indirect
 	go.opentelemetry.io/otel v1.22.0 // indirect
@@ -30,5 +32,5 @@ require (
 	google.golang.org/appengine v1.6.8 // indirect
 	google.golang.org/genproto/googleapis/rpc v0.0.0-20240125205218-1f4bbc51befe // indirect
 	google.golang.org/grpc v1.61.0 // indirect
-	google.golang.org/protobuf v1.32.0 // indirect
+	google.golang.org/protobuf v1.33.0 // indirect
 )
